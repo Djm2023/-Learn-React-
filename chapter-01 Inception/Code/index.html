@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Hello Devjyoti !!!! Start your journey for React.js</h1>
+    </div>
+  </body>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <script>
+    // creating h1 tag and adding text to the h1 tag using javascript only.
+
+    // const heading = document.createElement('h1')
+    // heading.innerHTML='Hello Devjyoti'
+    // const root=document.getElementById('root')
+    // root.appendChild(heading)
+
+    // Rendering heading1 and heading2 using React CDN.
+
+    const heading1 = React.createElement("h1", {}, "Hello World");
+    const heading2 = React.createElement("h1", {}, "Hello Devjyoti");
+    const elem = React.createElement(
+      "div",
+      {
+        style: {
+          color: "blue",
+        },
+        className: "heading1",
+      },
+      [heading1, heading2]
+    );
+
+    //  console.log(heading) return object
+    // React.createElement will give us objects
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    // Rendering the element
+    root.render(elem);
+  </script>
+</html>
