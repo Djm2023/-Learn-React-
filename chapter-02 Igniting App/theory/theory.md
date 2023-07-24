@@ -95,7 +95,7 @@ Question 14.
 
 👉 carat(^) : It is used for automatically updating the minor updates along with patch updates.
 
-    For Example : The (^1.2.4) will update all the future Minor and patch updates ,(^1.2.4) will automatically change the dependency to 1.X.X if any update occurs. So , using carat notation it is important to look at our code regularly if it is compatible with the newest version or not .
+    For Example : The (^2.2.4) will update all the future Minor and patch updates ,(^2.2.4) will automatically change the dependency to 2.X.X if any update occurs. So , using carat notation it is important to look at our code regularly if it is compatible with the newest version or not .
 
-👉 tilde(~) : It is used to match recent patch versions. Also (~)freezes all the major versions and the minor versions .So Patch updates are only bug fixes that is why we can say (~) allows to automatically accept bug fixes.
+👉 tilde(~) : It is basically used to match the most recent patch versions. Also (~)freezes all the major versions and the minor versions .So Patch updates are only bug fixes that is why we can say (~) allows to automatically accept bug fixes.
 
