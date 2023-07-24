@@ -65,8 +65,40 @@ The files which can be regenerated in the project can be put into '.gitignore'.E
 
 Question 10.
 
-🎯 What isthe difference between package.json and package-lock.json ?
+🎯 What is the difference between package.json and package-lock.json ?
 
 👉 package.json : The package. json file contains descriptive and functional metadata about a project, such as a name, version, and dependencies. The file provides the npm package manager with various information to help identify the project and handle dependencies.
 
 👉 package-lock.json : It records the exact version of every installed dependency, including its sub-dependencies and their versions.
+
+Question 11.
+
+🎯 Why should I not modify "package-lock.json" file ?
+
+👉 A package-lock.json file contains the information about the dependencies and their versions used in the project. Deleting it would cause dependencies issues in the production environment.
+
+Question 12.
+
+🎯 What is node_modules ?
+
+👉 node_modules is just a directory created by npm and a way of tracking each packages we install via package.json .
+
+Question 13.
+
+🎯 What is browser's lists ?
+
+👉 Browserslist is a tool that allows specifying which browser should be supported in our frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue etc .
+
+Question 14.
+
+🎯 What is carat(^) and tilde(~) ?
+
+👉 carat(^) : It is used for automatically updating the minor updates along with patch updates.
+
+    For Example : The ^1.2.4 will update all the future Minor and patch updates, for example, ^1.2.4 will automatically change the dependency to 1.X.X if any update occurs.
+
+    Using caret notation it is important to look at our code regularly if it is compatible with the newest version or not.
+
+👉 tilde(~) : It is used to match the most recent patch version . Also tilde notation freezes the major version and minor version.As we know patch updates are bug fixes that’s why we can say tilde(~) notation allows us to automatically accept bug fixes.
+
+
