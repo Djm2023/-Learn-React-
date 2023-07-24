@@ -89,13 +89,3 @@ Question 13.
 
 👉 Browserslist is a tool that allows specifying which browser should be supported in our frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue etc .
 
-Question 14.
-
-🎯 What is carat(^) and tilde(~) ?
-
-👉 carat(^) : It is used for automatically updating the minor updates along with patch updates.
-
-
-👉 tilde(~) : It is responsible for the most recent patch version. Also (~) freezes all the major versions and the minor versions .So Patch updates are only bug fixes that is why we can say (~) allows to automatically accept bug fixes.
-
-It is basically used to match the most recent patch versions. 
