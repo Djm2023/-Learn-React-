@@ -1,0 +1,15 @@
+.creatediv{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+
+#heading1{
+    color: red;
+}
+#heading2{
+    color: aqua;
+}#heading3{
+    color: brown;
+}
