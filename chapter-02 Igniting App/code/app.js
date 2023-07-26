@@ -13,12 +13,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // Let's play 
 // TASK-01
 
-  <div class="parent">
-    <div id="child">
-        <h1>This is heading1</h1>
-        <h2>This is heading2</h2>
-    </div>
-</div> 
+//   <div class="parent">
+//     <div id="child">
+//         <h1>This is heading1</h1>
+//         <h2>This is heading2</h2>
+//     </div>
+// </div> 
 
 
 const heading = React.createElement(
