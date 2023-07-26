@@ -18,3 +18,14 @@ Question 3.
 
 👉 The type attribute specifies the type of the script.
 
+Question 4.
+
+🎯  {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent><TitleComponent/>} in JSX?
+
+👉 {TitleComponent} : It describes as the js expression or a varible.
+
+👉 {<TitleComponent/>} : It describes as the functional component which is basically returning some JSX value .
+
+👉 {<TitleComponent><TitleComponent/>} :  The opening and closing tags are created to include the child components.
+
+
