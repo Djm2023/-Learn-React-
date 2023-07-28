@@ -41,3 +41,11 @@ Question 5.
     2. Reuse previously completed work and even abort it if not needed.
 
     3. Split work into chunks and prioritize tasks based on importance.
+
+ Question 6.
+
+🎯 Why do we need Keys in React?
+
+👉 A key is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the elements in the lists. Keys should be given to the elements within the array to give the elements a stable identity.
+   
+
