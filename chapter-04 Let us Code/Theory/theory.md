@@ -59,3 +59,9 @@ Question 8.
 🎯 What is props in React?
 
 👉 props stands for properties. Props are arguments passed into React components. props are used in React to pass data from one component to another (from a parent component to a child component). They are useful when you want the flow of data in our app to be dynamic.
+
+Question 9.
+
+🎯 What is Config Driven UI?
+
+👉 Config Driven UI are based on the configurations of the data application when received. It is rather a good practice to use config driven UIs to make application dynamic. It is a very common & basic approach to interact with the User. It provides a generic interface to develop things which help your project scale well. It saves a lot of development time and effort.
