@@ -34,7 +34,7 @@ Question 5.
 
 🎯 What is React Fiber ?
 
-👉  React Fiber is a concept of ReactJs that is used to render a system faster, smoother and smaller. The Fiber reconciler, which became the default reconciler for React 16 and above, is a complete rewrite of React’s reconciliation algorithm to solve some long-standing issues in React. Because Fiber is asynchronous, React can:
+👉 React Fiber is a concept of ReactJs that is used to render a system faster, smoother and smaller. The Fiber reconciler, which became the default reconciler for React 16 and above, is a complete rewrite of React’s reconciliation algorithm to solve some long-standing issues in React. Because Fiber is asynchronous, React can:
 
     1. Pause, resume, and restart rendering work on components as new updates come in.
 
@@ -42,10 +42,20 @@ Question 5.
 
     3. Split work into chunks and prioritize tasks based on importance.
 
- Question 6.
+Question 6.
 
 🎯 Why do we need Keys in React?
 
 👉 A key is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list are changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the elements in the lists. Keys should be given to the elements within the array to give the elements a stable identity.
-   
 
+Question 7.
+
+🎯 How can we write comments in JSX??
+
+👉 {/\* \*/} - for single or multiline comments.
+
+Question 8.
+
+🎯 What is props in React?
+
+👉 props stands for properties. Props are arguments passed into React components. props are used in React to pass data from one component to another (from a parent component to a child component). They are useful when you want the flow of data in our app to be dynamic.
