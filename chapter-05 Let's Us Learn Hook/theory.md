@@ -8,3 +8,43 @@ Question 1.
 
 export const MyComponent = () => {}
 export const MyComponent2 = () => {}
+
+and the component is imported from MyComponent.js file like: here we must use {} in MyComponent.
+
+// ex. importing a single named export
+import { MyComponent } from "./MyComponent";
+
+// ex. importing multiple named exports
+import { MyComponent, MyComponent2 } from "./MyComponent";
+
+// ex. giving a named import a different name by using "as":
+import { MyComponent2 as MyNewComponent } from "./MyComponent";
+In Default export, One can have only one default export per file. The naming of import is completely independent in default export and we can use any name we like. In Default export, the component is exported from MyComponent.js file like:
+
+const MyComponent = () => {}
+export default MyComponent;
+and the component is imported from MyComponent.js file like: here we must omit {} in MyComponent.
+
+import MyComponent from "./MyComponent";
+In * as export, it is used to import the whole module as a component and access the components inside the module. In * as export, the component is exported from MyComponent.js file like:
+
+export const MyComponent = () => {}
+export const MyComponent2 = () => {}
+export const MyComponent3 = () => {}
+and the component is imported from MyComponent.js file like:
+
+import * as MainComponents from "./MyComponent";
+Now we can use them in JSX as:
+
+<MainComponents.MyComponent />
+<MainComponents.MyComponent2 />
+<MainComponents.MyComponent3 />
+We can use Named export and Default export together. So you should export like:
+
+export const MyComponent2 = () => {}
+const MyComponent = () => {}
+export default MyComponent;
+and import like:
+
+import MyComponent, {MyComponent2} from "./MyComponent";
+
