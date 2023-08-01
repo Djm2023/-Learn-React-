@@ -60,22 +60,24 @@ Question 3.
 
 👉 React Hooks are simple Js functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects.
 
- React provides a bunch of standard in-built hooks:
+React provides a bunch of standard in-built hooks:
 
-  1. useState: To manages States.Returns a statefull value and an updater function to update it.
+1. useState: To manages States.Returns a statefull value and an updater function to update it.
 
-  2. useEffect: To manage side-effects like API calls,subscriptions, timers, mutations, and more.
+2. useEffect: To manage side-effects like API calls,subscriptions, timers, mutations, and more.
 
-  3. useContext: To return the current value for a context.
+3. useContext: To return the current value for a context.
 
-  4. useReducer: A useState alternative to help with complex state management.
+4. useReducer: A useState alternative to help with complex state management.
 
-  5. useCallback: It returns a memorized version of a callback to help a child component not re-render unnecessarily.
+5. useCallback: It returns a memorized version of a callback to help a child component not re-render unnecessarily.
 
-  6. useMeno: It returns a memoized value that helps in performace optimizations.
+6. useMeno: It returns a memoized value that helps in performace optimizations.
 
-  7. useRef: It return a ref object with a .current property. The ref object is mutable. It is mainly used to access a child component imperatively.
+7. useRef: It return a ref object with a .current property. The ref object is mutable. It is mainly used to access a child component imperatively.
 
+Question 4.
 
+🎯 Why do we need a useState Hook ?
 
-
+👉 The React useState Hook allows you to have state variables in functional componemts. You pass the initial state to this function, and it returns a varible with the current state value and another function to update this value.
